@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="desktop.hambug.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/authFragment"
+        android:name="desktop.hambug.AuthFragment"
+        android:label="AuthFragment"
+        tools:layout="@layout/fragment_auth" />
+    <fragment
+        android:id="@+id/communityFragment"
+        android:name="desktop.hambug.CommunityFragment"
+        android:label="CommunityFragment"
+        tools:layout="@layout/fragment_community" />
+    <fragment
+        android:id="@+id/burgersFragment"
+        android:name="desktop.hambug.BurgersFragment"
+        android:label="BurgersFragment"
+        tools:layout="@layout/fragment_burgers" />
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="desktop.hambug.MapFragment"
+        android:label="MapFragment"
+        tools:layout="@layout/fragment_map" />
+    <fragment
+        android:id="@+id/myFragment"
+        android:name="desktop.hambug.MyFragment"
+        android:label="MyFragment"
+        tools:layout="@layout/fragment_my" />
+
+
+</navigation>

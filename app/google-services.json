@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "944161514340",
+    "project_id": "desktop-hambug",
+    "storage_bucket": "desktop-hambug.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944161514340:android:a09d357fc1effdc8871071",
+        "android_client_info": {
+          "package_name": "desktop.hambug"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChYIQeUZ4-wQX93E6KAnarvQrRTFNO5lI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
