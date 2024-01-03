@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/nameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="맘스터치" />
+
+    <TextView
+        android:id="@+id/shopTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="매장 수 : "
+        android:textColor="@color/gray3"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nameTextView" />
+
+    <TextView
+        android:id="@+id/frontTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="약"
+        android:textColor="@color/gray3"
+        android:textSize="16dp"
+        app:layout_constraintStart_toEndOf="@id/shopTextView"
+        app:layout_constraintTop_toTopOf="@id/shopTextView" />
+
+    <TextView
+        android:id="@+id/numTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:textColor="@color/select"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="@id/shopTextView"
+        app:layout_constraintStart_toEndOf="@id/frontTextView"
+        app:layout_constraintTop_toTopOf="@id/shopTextView"
+        tools:text="400" />
+
+    <TextView
+        android:id="@+id/backTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="개"
+        android:textColor="@color/gray3"
+        android:textSize="16dp"
+        app:layout_constraintStart_toEndOf="@id/numTextView"
+        app:layout_constraintTop_toTopOf="@id/shopTextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

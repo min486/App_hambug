@@ -1,8 +1,9 @@
-package desktop.hambug
+package desktop.hambug.my
 
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
+import desktop.hambug.R
 import desktop.hambug.databinding.FragmentMyBinding
 
 class MyFragment : Fragment(R.layout.fragment_my) {

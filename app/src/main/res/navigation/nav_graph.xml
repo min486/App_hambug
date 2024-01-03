@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="desktop.hambug.HomeFragment"
+        android:name="desktop.hambug.home.HomeFragment"
         android:label="HomeFragment"
         tools:layout="@layout/fragment_home" >
         <action
@@ -24,22 +24,22 @@
         tools:layout="@layout/fragment_auth" />
     <fragment
         android:id="@+id/communityFragment"
-        android:name="desktop.hambug.CommunityFragment"
+        android:name="desktop.hambug.community.CommunityFragment"
         android:label="CommunityFragment"
         tools:layout="@layout/fragment_community" />
     <fragment
         android:id="@+id/burgersFragment"
-        android:name="desktop.hambug.BurgersFragment"
+        android:name="desktop.hambug.burger.BurgersFragment"
         android:label="BurgersFragment"
         tools:layout="@layout/fragment_burgers" />
     <fragment
         android:id="@+id/mapFragment"
-        android:name="desktop.hambug.MapFragment"
+        android:name="desktop.hambug.map.MapFragment"
         android:label="MapFragment"
         tools:layout="@layout/fragment_map" />
     <fragment
         android:id="@+id/myFragment"
-        android:name="desktop.hambug.MyFragment"
+        android:name="desktop.hambug.my.MyFragment"
         android:label="MyFragment"
         tools:layout="@layout/fragment_my" />
 

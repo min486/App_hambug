@@ -1,4 +1,4 @@
-package desktop.hambug
+package desktop.hambug.map
 
 import android.os.Bundle
 import android.util.Log
@@ -10,12 +10,12 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_COLLAPSED
 import com.naver.maps.geometry.LatLng
-import com.naver.maps.geometry.Tm128
 import com.naver.maps.map.CameraAnimation
 import com.naver.maps.map.CameraUpdate
 import com.naver.maps.map.NaverMap
 import com.naver.maps.map.OnMapReadyCallback
 import com.naver.maps.map.overlay.Marker
+import desktop.hambug.R
 import desktop.hambug.databinding.FragmentMapBinding
 import retrofit2.Call
 import retrofit2.Callback
@@ -55,7 +55,8 @@ class MapFragment : Fragment(R.layout.fragment_map), OnMapReadyCallback {
 
                 // 빈 검색어 제외하는 예외처리
                 if (query?.isNotEmpty() == true) {
-                    SearchRepository.getBurgerRestaurant(query).enqueue(object : Callback<SearchResult> {
+                    SearchRepository.getBurgerRestaurant(query)
+                        .enqueue(object : Callback<SearchResult> {
                         override fun onResponse(call: Call<SearchResult>, response: Response<SearchResult>) {
                             // Log.e("aa", "${response.body().toString()}")
                             // 받아온 결과값을 마커에 찍어주기

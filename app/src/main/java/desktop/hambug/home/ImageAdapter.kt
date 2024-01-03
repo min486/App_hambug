@@ -1,4 +1,4 @@
-package desktop.hambug
+package desktop.hambug.home
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
+import desktop.hambug.R
 
 class ImageAdapter(private val imageList: ArrayList<Int>, private val viewPager: ViewPager2)
     : RecyclerView.Adapter<ImageAdapter.ImageViewHolder>(){

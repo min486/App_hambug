@@ -1,9 +1,10 @@
-package desktop.hambug
+package desktop.hambug.burger
 
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import com.google.android.material.tabs.TabLayoutMediator
+import desktop.hambug.R
 import desktop.hambug.databinding.FragmentBurgersBinding
 
 class BurgersFragment : Fragment(R.layout.fragment_burgers) {

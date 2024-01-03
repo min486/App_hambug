@@ -1,8 +1,9 @@
-package desktop.hambug
+package desktop.hambug.map
 
-import android.content.res.Resources
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
+import desktop.hambug.MyApplication
+import desktop.hambug.R
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import okhttp3.Response

@@ -1,0 +1,134 @@
+[
+  {
+    "type": "FRANCHISE",
+    "shopId": "1",
+    "shopName": "맘스터치",
+    "shopNumber": "1400"
+  },
+  {
+    "type": "FRANCHISE",
+    "shopId": "2",
+    "shopName": "롯데리아",
+    "shopNumber": "1286"
+  },
+  {
+    "type": "FRANCHISE",
+    "shopId": "3",
+    "shopName": "프랭크버거",
+    "shopNumber": "600"
+  },
+  {
+    "type": "FRANCHISE",
+    "shopId": "4",
+    "shopName": "버거킹",
+    "shopNumber": "470"
+  },
+  {
+    "type": "FRANCHISE",
+    "shopId": "5",
+    "shopName": "맥도날드",
+    "shopNumber": "400"
+  },
+  {
+    "type": "FRANCHISE",
+    "shopId": "6",
+    "shopName": "KFC",
+    "shopNumber": "200"
+  },
+  {
+    "type": "FRANCHISE",
+    "shopId": "7",
+    "shopName": "노브랜드버거",
+    "shopNumber": "197"
+  },
+  {
+    "type": "FRANCHISE",
+    "shopId": "8",
+    "shopName": "뉴욕버거",
+    "shopNumber": "163"
+  },
+  {
+    "type": "FRANCHISE",
+    "shopId": "9",
+    "shopName": "버거앤프라이즈",
+    "shopNumber": "62"
+  },
+  {
+    "type": "FRANCHISE",
+    "shopId": "10",
+    "shopName": "블리스버거",
+    "shopNumber": "36"
+  },
+  {
+    "type": "FRANCHISE",
+    "shopId": "11",
+    "shopName": "힘난다버거",
+    "shopNumber": "36"
+  },
+  {
+    "type": "FRANCHISE",
+    "shopId": "12",
+    "shopName": "쉐이크쉑",
+    "shopNumber": "27"
+  },
+  {
+    "type": "FRANCHISE",
+    "shopId": "13",
+    "shopName": "버거스올마이티",
+    "shopNumber": "22"
+  },
+  {
+    "type": "FRANCHISE",
+    "shopId": "14",
+    "shopName": "바스버거",
+    "shopNumber": "36"
+  },
+  {
+    "type": "FRANCHISE",
+    "shopId": "15",
+    "shopName": "칙바이칙",
+    "shopNumber": "16"
+  },
+  {
+    "type": "FRANCHISE",
+    "shopId": "16",
+    "shopName": "GTS버거",
+    "shopNumber": "16"
+  },
+  {
+    "type": "FRANCHISE",
+    "shopId": "17",
+    "shopName": "모스버거",
+    "shopNumber": "13"
+  },
+  {
+    "type": "FRANCHISE",
+    "shopId": "18",
+    "shopName": "브루클린더버거조인트",
+    "shopNumber": "12"
+  },
+  {
+    "type": "FRANCHISE",
+    "shopId": "19",
+    "shopName": "번패티번",
+    "shopNumber": "9"
+  },
+  {
+    "type": "FRANCHISE",
+    "shopId": "19",
+    "shopName": "빌리언박스",
+    "shopNumber": "9"
+  },
+  {
+    "type": "FRANCHISE",
+    "shopId": "19",
+    "shopName": "크라이치즈버거",
+    "shopNumber": "7"
+  },
+  {
+    "type": "FRANCHISE",
+    "shopId": "19",
+    "shopName": "파이브가이즈",
+    "shopNumber": "2"
+  }
+]

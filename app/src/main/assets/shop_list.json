@@ -1,0 +1,32 @@
+[
+  {
+    "type": "SHOP",
+    "shopId": "1",
+    "shopName": "언아웃버거",
+    "shopAddress": "경기 부천시 원미구 소향로 181"
+  },
+  {
+    "type": "SHOP",
+    "shopId": "2",
+    "shopName": "버거더심플",
+    "shopAddress": "경기 부천시 원미구 석천로 179"
+  },
+  {
+    "type": "SHOP",
+    "shopId": "3",
+    "shopName": "포티데이즈",
+    "shopAddress": "서울 강남구 강남대로158길 16 1층"
+  },
+  {
+    "type": "SHOP",
+    "shopId": "4",
+    "shopName": "풀리너마이트",
+    "shopAddress": "서울 마포구 홍익로 13-4 풀리너마이트"
+  },
+  {
+    "type": "SHOP",
+    "shopId": "5",
+    "shopName": "버거온플릭",
+    "shopAddress": "경기 성남시 분당구 판교역로 145 라스트리트 2동 206호"
+  }
+]

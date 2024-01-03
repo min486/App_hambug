@@ -1,4 +1,4 @@
-package desktop.hambug
+package desktop.hambug.home
 
 import android.os.Bundle
 import android.os.Handler
@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
+import desktop.hambug.R
 import desktop.hambug.databinding.FragmentHomeBinding
 
 class HomeFragment: Fragment(R.layout.fragment_home) {
