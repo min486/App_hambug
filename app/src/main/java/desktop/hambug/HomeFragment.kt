@@ -5,9 +5,9 @@ import android.os.Handler
 import android.os.Looper
 import android.view.View
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
-import com.google.android.material.tabs.TabLayoutMediator
 import desktop.hambug.databinding.FragmentHomeBinding
 
 class HomeFragment: Fragment(R.layout.fragment_home) {
@@ -31,6 +31,16 @@ class HomeFragment: Fragment(R.layout.fragment_home) {
                 handler.postDelayed(runnable, 2000)
             }
         })
+
+        binding.burgerCardView.setOnClickListener {
+            val action = HomeFragmentDirections.actionHomeFragmentToBurgersFragment()
+            findNavController().navigate(action)
+        }
+
+        binding.locationCardView.setOnClickListener {
+            val action = HomeFragmentDirections.actionHomeFragmentToMapFragment()
+            findNavController().navigate(action)
+        }
     }
 
     override fun onPause() {
@@ -52,7 +62,7 @@ class HomeFragment: Fragment(R.layout.fragment_home) {
         handler = Handler(Looper.myLooper()!!)
         imageList = ArrayList()
 
-        imageList.add(R.drawable.burger)
+        imageList.add(R.drawable.burger1)
         imageList.add(R.drawable.burger2)
         imageList.add(R.drawable.burger3)
 

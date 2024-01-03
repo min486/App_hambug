@@ -9,7 +9,14 @@
         android:id="@+id/homeFragment"
         android:name="desktop.hambug.HomeFragment"
         android:label="HomeFragment"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_burgersFragment"
+            app:destination="@id/burgersFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_mapFragment"
+            app:destination="@id/mapFragment" />
+    </fragment>
     <fragment
         android:id="@+id/authFragment"
         android:name="desktop.hambug.AuthFragment"
@@ -35,6 +42,5 @@
         android:name="desktop.hambug.MyFragment"
         android:label="MyFragment"
         tools:layout="@layout/fragment_my" />
-
 
 </navigation>

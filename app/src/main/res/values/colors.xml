@@ -3,6 +3,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="gray">#FF888888</color>
+    <color name="gray2">#777777</color>
     <color name="select">#FF4685</color>
     <color name="unselect">#777777</color>
 </resources>
