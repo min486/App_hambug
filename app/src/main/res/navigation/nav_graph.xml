@@ -9,7 +9,7 @@
         android:id="@+id/homeFragment"
         android:name="desktop.hambug.home.HomeFragment"
         android:label="HomeFragment"
-        tools:layout="@layout/fragment_home" >
+        tools:layout="@layout/fragment_home">
         <action
             android:id="@+id/action_homeFragment_to_burgersFragment"
             app:destination="@id/burgersFragment" />
@@ -26,7 +26,11 @@
         android:id="@+id/communityFragment"
         android:name="desktop.hambug.community.CommunityFragment"
         android:label="CommunityFragment"
-        tools:layout="@layout/fragment_community" />
+        tools:layout="@layout/fragment_community">
+        <action
+            android:id="@+id/action_communityFragment_to_writeArticleFragment"
+            app:destination="@id/writeArticleFragment" />
+    </fragment>
     <fragment
         android:id="@+id/burgersFragment"
         android:name="desktop.hambug.burger.BurgersFragment"
@@ -42,5 +46,17 @@
         android:name="desktop.hambug.my.MyFragment"
         android:label="MyFragment"
         tools:layout="@layout/fragment_my" />
+    <fragment
+        android:id="@+id/writeArticleFragment"
+        android:name="desktop.hambug.community.WriteArticleFragment"
+        android:label="WriteArticleFragment"
+        tools:layout="@layout/fragment_write">
+        <action
+            android:id="@+id/action_writeArticleFragment_to_communityFragment"
+            app:destination="@id/communityFragment" />
+        <action
+            android:id="@+id/actionBack"
+            app:destination="@id/communityFragment" />
+    </fragment>
 
 </navigation>
