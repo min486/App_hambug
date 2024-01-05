@@ -32,7 +32,7 @@ Android 개인 프로젝트
 
 |                            splash                            |                       이미지 슬라이드                        |                       다른 페이지 이동                       |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src="./README.assets/splash4.gif" alt="splash" align="center" width="100%" /> | <img src="./README.assets/slide3.gif" alt="slide" align="center" width="100%" /> | <img src="./README.assets/slide3.gif" alt="slide" align="move" width="100%" /> |
+| <img src="./README.assets/splash.gif" alt="splash" align="center" width="100%" /> | <img src="./README.assets/slide.gif" alt="slide" align="center" width="100%" /> | <img src="./README.assets/move.gif" alt="slide" align="move" width="100%" /> |
 
 ## 2) 커뮤니티
 
