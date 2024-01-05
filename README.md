@@ -1,4 +1,4 @@
-# 🍔 햄버그 (hambug)
+# 🍔 햄버그 (Hambug)
 
 Android 개인 프로젝트
 
@@ -32,7 +32,7 @@ Android 개인 프로젝트
 
 |                            Splash                            |                       이미지 슬라이드                        |                       다른 페이지 이동                       |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src="./README.assets/splash.gif" alt="splash" align="center" width="100%" /> | <img src="./README.assets/splash.gif" alt="splash" align="center" width="100%" /> | <img src="./README.assets/todo.gif" alt="todo" align="center" width="100%" /> |
+| <img src="./README.assets/splash.gif" alt="splash" align="center" width="100%" /> | <img src="./README.assets/slide.gif" alt="slide" align="center" width="100%" /> | <img src="./README.assets/slide.gif" alt="slide" align="move" width="100%" /> |
 
 ## 2) 커뮤니티
 
