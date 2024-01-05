@@ -123,10 +123,13 @@ class WriteArticleFragment : Fragment(R.layout.fragment_write) {
             .set(articleModel)
             .addOnSuccessListener {
                 findNavController().navigate(WriteArticleFragmentDirections.actionWriteArticleFragmentToCommunityFragment())
+                view?.let { view ->
+                    Snackbar.make(view, "게시글 작성 완료", Snackbar.LENGTH_SHORT).show()
+                }
             }.addOnFailureListener {
                 it.printStackTrace()
                 view?.let { view ->
-                    Snackbar.make(view, "게시글 작성에 실패했습니다", Snackbar.LENGTH_SHORT).show()
+                    Snackbar.make(view, "게시글 작성 실패", Snackbar.LENGTH_SHORT).show()
                 }
             }
     }

@@ -30,6 +30,9 @@
         <action
             android:id="@+id/action_communityFragment_to_writeArticleFragment"
             app:destination="@id/writeArticleFragment" />
+        <action
+            android:id="@+id/action_communityFragment_to_articleFragment"
+            app:destination="@id/articleFragment" />
     </fragment>
     <fragment
         android:id="@+id/burgersFragment"
@@ -58,5 +61,16 @@
             android:id="@+id/actionBack"
             app:destination="@id/communityFragment" />
     </fragment>
-
+    <fragment
+        android:id="@+id/articleFragment"
+        android:name="desktop.hambug.community.ArticleFragment"
+        android:label="ArticleFragment"
+        tools:layout="@layout/fragment_article" >
+        <argument
+            android:name="articleId"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_articleFragment_to_communityFragment"
+            app:destination="@id/communityFragment" />
+    </fragment>
 </navigation>
