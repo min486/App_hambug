@@ -19,6 +19,8 @@
             android:id="@+id/franchiseRecyclerView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
             tools:listitem="@layout/item_franchise" />
 
     </androidx.core.widget.NestedScrollView>

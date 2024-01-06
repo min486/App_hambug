@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@color/white"
-    android:padding="12dp">
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp">
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/nameTextView"
@@ -31,11 +32,12 @@
 
     <TextView
         android:id="@+id/addressTextView"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
         android:textColor="@color/gray3"
         android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/frontTextView"
         app:layout_constraintTop_toTopOf="@id/frontTextView"
         tools:text="경기 부천시 원미구 소향로 181" />
