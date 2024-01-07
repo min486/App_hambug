@@ -8,13 +8,14 @@ Android 개인 프로젝트
 
 ### 🛠️ 사용 기술
 
-- Firebase
 - XML
+
+- Firebase
 - Navigation
 - Glide
 - Retrofit
 - Moshi
-- 네이버 지도
+- Gson
 
 ### 🖥️ 개발 환경
 
@@ -36,3 +37,18 @@ Android 개인 프로젝트
 
 ## 2) 커뮤니티
 
+|                       커뮤니티 페이지                        |                      게시글 작성 페이지                      |                      게시글 상세 페이지                      |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| <img src="./README.assets/community.gif" alt="community" align="center" width="100%" /> | <img src="./README.assets/post_write.gif" alt="post_write" align="center" width="100%" /> | <img src="./README.assets/post_detail.gif" alt="post_detail" align="move" width="100%" /> |
+
+## 3) 버거정보
+
+|                      프랜차이즈 페이지                       |                       수제버거 페이지                        |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+| <img src="./README.assets/burger.gif" alt="burger" align="center" width="70%" /> | <img src="./README.assets/burger2.gif" alt="burger2" align="center" width="70%" /> |
+
+## 4) 매장찾기
+
+|                          매장 검색                           |                       햄버거 매장 확인                       |                          지도 확인                           |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| <img src="./README.assets/map2.gif" alt="map2" align="center" width="100%" /> | <img src="./README.assets/map3.gif" alt="map3" align="center" width="100%" /> | <img src="./README.assets/map4.gif" alt="map4" align="move" width="100%" /> |
