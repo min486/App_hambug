@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:gravity="center"
-        android:text="햄버그"
+        android:text="가까운 매장"
         android:textColor="@color/black"
         android:textSize="20dp"
         android:textStyle="bold"
